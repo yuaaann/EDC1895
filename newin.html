@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/menu.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/flexbox.css" />
+        <title>EDC1895</title>
+        <style>
+           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+            .wrap1{
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .wrap2{
+                display: flex;
+                justify-content: space-between;
+                align-content: flex-start;
+                text-align: center;
+            }
+
+            
+            .price{
+                border-radius: 45%;
+                width: 98%;
+                height: 23px;
+                background-color: #1d2089;
+                text-align: center;
+                color: white;
+                font-size: 12px;
+                border-color: white;
+                border-width: 2px;
+                border-style: solid;
+                margin-bottom: 5px;  
+                margin-right: 2px;
+            }
+
+            
+           
+        </style>
+        <script type="text/javascript">
+            function showsize(){
+                var atc =document.getElementById("addtocart");
+                atc.style.visibility="hidden";
+                atc.innerHTML="<button type='button' class='asize' onclick='addtocart()'>1</button>"
+
+            }
+
+            function changcolor1_1(){
+                var n1=document.getElementById("n1")
+                n1.src="img/n1p.jpg";
+            }
+            function changcolor1_2(){
+                var n1=document.getElementById("n1")
+                n1.src="img/n1g.jpg";
+            }
+            function changcolor1_3(){
+                var n1=document.getElementById("n1")
+                n1.src="img/n1b.jpg";
+            }
+
+        </script>
+    </head>
+    <body style="font-family: 'Inter', sans-serif;background-color: #1d2089;" >
+        <header>
+            
+            <input type="checkbox" id="toggler">
+            <div class="wrap1">
+                    <label for="toggler" style="margin-bottom: 5px;">
+                        <div class="hamburger-container">
+                        <span></span>
+                        <span></span>
+                        </div>
+                    </label>
+                    <element onclick="javascript:location.href='index.html'"><img margin-top="0" src="img/EDC1895.png" height="62px" ></element>
+                    
+            </div>
+                
+           
+               
+           
+                <div  class="nav-items"  >
+                    <ul>
+                        <div>
+                            <div class="wrap2" style="margin-bottom: 5px;margin-right: 3%;">
+                                <div style="margin-left:0%; border-color:white;background-color: #1d2089;border-width:3px;border-style:solid;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                    <element onclick="javascript:location.href='collection.html'"><li>COLLECTION</li></element></div>
+                                <div style="margin-left:0%; border-color:white;background-color: #1d2089;border-width:3px;border-style:solid;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                    <element onclick="javascript:location.href='thestory.html'"><li>THE STORY</li></element></div>
+                                <div style="margin-left:0%; border-color:white;background-color: #1d2089;border-width:3px;border-style:solid;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                        <element onclick="javascript:location.href='help.html'"><li>HELP</li></element></div>
+                            </div>
+
+
+
+                            <input type="checkbox" id="shop">
+                            <label for="shop">
+                            <div style="margin-bottom: 5px; margin-right: 3%; background-color: #1d2089;border-color: white;border-width:3px;border-style:solid;padding:5px;"><li>SHOP
+                                <div class="shop-items" >
+                                
+                                    <ul>
+                                        
+                                        <div class="wrap2" style="margin-bottom: 5px;margin-right: 3%;">
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='viewall.html'"><li>VIEW ALL</li></element></div>
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='newin.html'"><li>NEW IN</li></element></div>
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='exclusive.html'"><li>EXCLUSIVE</li></element></div>
+                                        </div>
+                                        <div class="wrap2" style="margin-bottom: 5px; margin-right: 3%; ">
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='outwear.html'"><li>OUT WEAR</li></element></div>
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='pants.html'"><li>PANTS</li></element></div>
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='shirt.html'"><li>SHIRT</li></element></div>
+                                        </div> 
+                                        <div class="wrap2" style="margin-bottom: 5px; margin-right: 3%;">
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='skirt.html'"><li>SKIRT</li></element></div>
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='tops.html'"><li>TOPS</li></element></div>
+                                            <div style="margin-left:0%; background-color: #1d2089;padding:5px; justify-content: space-evenly;width: 29.5%;">
+                                                <element onclick="javascript:location.href='acc.html'"><li>ACC</li></element></div>
+                                        </div> 
+                                        <div style="margin-bottom: 5px; margin-right: 3%; background-color: #1d2089;padding:5px;">
+                                            <element onclick="javascript:location.href='visualart.html'"><li>VISUAL ART</li></element></div>
+                                    
+                                    </ul>
+                                </div>
+                            </li></div></label>
+                            
+
+                        </div>
+                        
+                    </ul>
+    
+                </div>
+        </header>
+        <div class="container">
+            <div class="items">
+                <div class="items_price" >
+                    <div style="text-align:center; ">
+                    <img class="circle" id="n1" src="img/n1.jpg" width="100%" alt="item1" onclick="javascript:location.href='EDC2_1.html'"></div>
+                    <div>
+                        <span style="height: 27px; font-size: 20px;color: white;margin-left: 3PX;" onclick="javascript:location.href='EDC2_1.html'">APPLE</span>
+                    </div>
+                    <div class="items_right" >
+                        <span style="width:50%;  ">
+                            <button onclick="changcolor1_1()" style="border-radius:50%;margin-left:3px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: pink;border-width:1.5px;border-style:solid; "></button>
+                            <button onclick="changcolor1_2()" style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #85D6BC;border-width:1.5px;border-style:solid; "></button>
+                            <button onclick="changcolor1_3()" style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #F1EAAC;border-width:1.5px;border-style:solid; "></button>
+                        </span>
+                        <span style="width:50%; margin-top:6px;height: 27px; font-size: 12px;color: #ADC5FF;">
+                            <button type="button"class="price">COMING SOON</button></span>
+                    </div>
+                </div>
+                <div class="items_price">
+                    <div style="text-align:center; ">
+                    <img class="circle" id="n2" src="img/n2.jpg" width="100%" alt="item1"></div>
+                    <div>
+                        <span style="height: 27px; font-size: 20px;color: white;margin-left: 3PX;">BANANA</span>
+                    </div>
+                    <div class="items_right" >
+                        <span style="width:50%;  ">
+                            <button style="border-radius:50%;margin-left:3px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: pink;border-width:1.5px;border-style:solid; "></button>
+                            <button style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #85D6BC;border-width:1.5px;border-style:solid; "></button>
+                            <button style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #F1EAAC;border-width:1.5px;border-style:solid; "></button>
+                        </span>
+                        <span style="width:50%; margin-top:6px;height: 27px; font-size: 12px;color: #ADC5FF;">
+                            <button type="button"class="price">COMING SOON</button></span>
+                    </div>
+                </div>
+
+            </div><br>
+           
+            <div class="items">
+                <div class="items_price">
+                    <div style="text-align:center; ">
+                    <img class="circle" id="n3" src="img/n3.jpg" width="100%" alt="item1"></div>
+                    <div>
+                        <span style="height: 27px; font-size: 20px;color: white;margin-left: 3PX;">CAT</span>
+                    </div>
+                    <div class="items_right" >
+                        <span style="width:50%;">
+                            <button style="border-radius:50%;margin-left:3px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: pink;border-width:1.5px;border-style:solid; "></button>
+                            <button style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #85D6BC;border-width:1.5px;border-style:solid; "></button>
+                            <button style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #F1EAAC;border-width:1.5px;border-style:solid; "></button>
+                        </span>
+                        <span style="width:50%; margin-top:6px;height: 27px; font-size: 12px;color: #ADC5FF;">
+                            <button type="button"class="price">COMING SOON</button></span>
+                    </div>
+                </div>
+                <div class="items_price">
+                    <div style="text-align:center; ">
+                    <img class="circle" id="n4" src="img/n4.jpg" width="100%" alt="item1"></div>
+                    <div>
+                        <span style="height: 27px; font-size: 20px;color: white;margin-left: 3PX;">DOG</span>
+                    </div>
+                    <div class="items_right" >
+                        <span style="width:50%;  ">
+                            <button style="border-radius:50%;margin-left:3px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: pink;border-width:1.5px;border-style:solid; "></button>
+                            <button style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #85D6BC;border-width:1.5px;border-style:solid; "></button>
+                            <button style="border-radius:50%;margin-left:6px;margin-top:4px;height:13px;width:13px;border-color:white;background-color: #F1EAAC;border-width:1.5px;border-style:solid; "></button>
+                        </span>
+                        <span style="width:50%; margin-top:6px;height: 27px; font-size: 12px;color: #ADC5FF;">
+                            <button type="button"class="price">COMING SOON</button></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+       
+    
+        
+       
+       
+    </body>
+</html>
+
+
+
+
+
